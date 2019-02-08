@@ -217,14 +217,11 @@ button>img {
     
 }
 
-.slide1 { background-image: url(1.jpg);
-         
-}
-
-.slide2 { background-image: url(2.jpg); }
-.slide3 { background-image: url(3.jpg); }
-.slide4 { background-image: url(4.jpg); }
-.slide5 { background-image: url(5.jpg); }
+.slide1 { background-image: url(../img/1.jpg); }
+.slide2 { background-image: url(../img/2.jpg); }
+.slide3 { background-image: url(../img/3.jpg); }
+.slide4 { background-image: url(../img/4.jpg); }
+.slide5 { background-image: url(../img/5.jpg); }
 .slide1>div,
 .slide2>div,
 .slide3>div,

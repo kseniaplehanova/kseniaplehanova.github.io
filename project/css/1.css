@@ -430,7 +430,7 @@
 
 
     a.rollover {
-        background: url(fm4.jpg) no-repeat;
+        background: url(../img/fm4.jpg) no-repeat;
         /* Путь к файлу с исходным рисунком  */
         display: block;
         /*  Рисунок как блочный элемент */
@@ -440,7 +440,7 @@
         /*  Высота рисунка */
     }
     a.rollover:hover {
-        background: url(queen.jpeg) no-repeat;
+        background: url(../img/queen.jpeg) no-repeat;
         /* Путь к файлу с заменяемым рисунком  */
     }
 }
@@ -693,13 +693,13 @@
         margin-top: 0px;
     }
      .text_three_1>a.rollover {
-        background: url(fm4.jpg) no-repeat;
+        background: url(../img/fm4.jpg) no-repeat;
         display: block;
         width: 100%;
         height: 200px;
     }
     .text_three_1>a.rollover:hover {
-        background: url(queen.jpeg) no-repeat;
+        background: url(../img/queen.jpeg) no-repeat;
         height: auto;
 
 
