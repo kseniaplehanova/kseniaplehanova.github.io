@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Сборники</title>
     <meta charset="utf-8">
     <link href="css/2.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -11,81 +11,93 @@
 </head>
 
 <body>
+    <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+    <label class="btn-menu" for="hmt">
+  <span class="first"></span>
+  <span class="second"></span>
+  <span class="third"></span>
+</label>
+    <ul class="hidden-menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="3.html">История</a></li>
+        <li><a href="1.html">О Фредди Меркьюри</a></li>
+        <li><a href="2.html">Альбомы</a></li>
+    </ul>
     <header class="header">
         <div class="upheader">
             <div class="upheader__logo">
-                <img src="img/queen-logo.png">
+                <img src="img/queen-logo.png" alt="Логотип" title="Логотип">
             </div>
 
             <div class="upheader__icons">
 
                 <form>
                     <input type="text" placeholder="Искать здесь...">
-                    <button type="submit"><img src="img/search.png"></button>
+                    <button type="submit"><img src="img/search.png" alt="Найти" title="Найти"></button>
 
                 </form>
             </div>
         </div>
         <ul class="downheader">
-            <li class="downheader__grup">Группа
-                <ul class="downheader__grup_people">
-                    <li><a href="1.html" target="_blank">Фредди Меркьюри</a></li>
-                    <li><a href="#" target="_blank">Брайан Мэй</a></li>
-                    <li><a href="#" target="_blank">Роджер Тейлор</a></li>
-                    <li><a href="#" target="_blank">Джон Дикон</a></li>
-                </ul>
-            </li>
-            <li class="downheader__history"><a href="#" target="_blank">История</a></li>
-            <li class="downheader__alboms">Альбомы
-                <ul class="downheader__alboms_music">
-                    <li><a href="#" target="_blank">Концертные альбомы</a></li>
-                    <li><a href="2.html" target="_blank">Сборники</a></li>
-                </ul>
-            </li>
-            <li class="downheader__news"><a href="#" target="_blank">Новости</a></li>
+            <li class="downheader__news"><a href="index.html">Главная</a></li>
+            <li class="downheader__history"><a href="3.html">История</a></li>
+            <li class="downheader__grup_people"><a href="1.html">О Фредди Меркьюри</a></li>
+            <li class="downheader__alboms"><a href="2.html">Альбомы</a></li>
         </ul>
     </header>
     <div class="sld">
-        <div class="sld_1"><p>“Recording our first album, we were all just students finishing our degrees.” 
-Brian May</p></div>
-        <div class="sld_2"><img src="img/al8.jpg"></div>
-        <div class="sld_3"><p>Альбомы</p></div>
+        <div class="sld_1">
+            <p>“Recording our first album, we were all just students finishing our degrees.” Brian May</p>
+        </div>
+        <div class="sld_2"><img src="img/al8.jpg" alt="Фото" title="Фото"></div>
+        <div class="sld_3">
+            <p>Альбомы</p>
+        </div>
     </div>
     <div class="articl">
-        <div class="articl_1"><a href="http://www.queenonline.com/music" target="_blank" title="http://www.queenonline.com/music"><img src="img/al1.jpg"><p>News Of The World</p></a><iframe width="560" height="315" src="https://www.youtube.com/embed/oI1kkRHka6s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div class="articl_2"><a href="http://www.queenonline.com/music" target="_blank" title="http://www.queenonline.com/music"><img src="img/al2.png"><p>Greatest Hits</p></a><iframe width="560" height="315" src="https://www.youtube.com/embed/_Uu12zY01ts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div class="articl_3"><a href="http://www.queenonline.com/music" target="_blank" title="http://www.queenonline.com/music"><img src="img/al3.jpg"><p>Barcelona</p></a><iframe width="560" height="315" src="https://www.youtube.com/embed/q0wdxj8-mAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div class="articl_4"><a href="http://www.queenonline.com/music" target="_blank" title="http://www.queenonline.com/music"><img src="img/al4.jpg"><p>The Works</p></a><iframe width="560" height="315" src="https://www.youtube.com/embed/azdwsXLmrHE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="articl_1"><a href="http://www.queenonline.com/music" title="http://www.queenonline.com/music"><img src="img/al1.jpg" alt="Фото" title="Фото"><p>News Of The World</p></a><iframe width="560" height="315" src="https://www.youtube.com/embed/oI1kkRHka6s" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="articl_2"><a href="http://www.queenonline.com/music" title="http://www.queenonline.com/music"><img src="img/al2.png" alt="Фото" title="Фото"><p>Greatest Hits</p></a><iframe width="560" height="315" src="https://www.youtube.com/embed/_Uu12zY01ts" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="articl_3"><a href="http://www.queenonline.com/music" title="http://www.queenonline.com/music"><img src="img/al3.jpg" alt="Фото" title="Фото"><p>Barcelona</p></a><iframe width="560" height="315" src="https://www.youtube.com/embed/q0wdxj8-mAU" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="articl_4"><a href="http://www.queenonline.com/music" title="http://www.queenonline.com/music"><img src="img/al4.jpg" alt="Фото" title="Фото"><p>The Works</p></a><iframe width="560" height="315" src="https://www.youtube.com/embed/azdwsXLmrHE" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <blockquote>
-  <p>Я не хочу попасть в рай после своей смерти - ад гораздо лучше. Только подумайте о тех интереснейших людях, которых вы сможете там встретить, и вы тоже захотите туда попасть.</p>
-  <footer>— <cite>Фредди Меркьюри</cite></footer>
-</blockquote>
-        <div class="articl_5"><a href="http://www.queenonline.com/music" target="_blank" title="http://www.queenonline.com/music"><img src="img/al5.png"><p>Hot Space</p></a><iframe width="560" height="315" src="https://www.youtube.com/embed/YaQAb2SnhbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div class="articl_6"><a href="http://www.queenonline.com/music" target="_blank" title="http://www.queenonline.com/music"><img src="img/al6.jpg"><p>The Miracle</p></a><iframe width="560" height="315" src="https://www.youtube.com/embed/2DaY8-Mui0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-        <div class="articl_7"><a href="http://www.queenonline.com/music" target="_blank" title="http://www.queenonline.com/music"><img src="img/al7.jpg"><p>Sheer Heart Attack</p></a><iframe width="560" height="315" src="https://www.youtube.com/embed/rkHF_JMnB8o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <p>Я не хочу попасть в рай после своей смерти &mdash; ад гораздо лучше. Только подумайте о тех интереснейших людях, которых вы сможете там встретить, и вы тоже захотите туда попасть.</p>
+            <footer>— <cite>Фредди Меркьюри</cite></footer>
+        </blockquote>
+        <div class="articl_5"><a href="http://www.queenonline.com/music" title="http://www.queenonline.com/music"><img src="img/al5.png" alt="Фото" title="Фото"><p>Hot Space</p></a><iframe width="560" height="315" src="https://www.youtube.com/embed/YaQAb2SnhbU" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="articl_6"><a href="http://www.queenonline.com/music" title="http://www.queenonline.com/music"><img src="img/al6.jpg" alt="Фото" title="Фото"><p>The Miracle</p></a><iframe width="560" height="315" src="https://www.youtube.com/embed/2DaY8-Mui0I" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="articl_7"><a href="http://www.queenonline.com/music" title="http://www.queenonline.com/music"><img src="img/al7.jpg" alt="Фото" title="Фото"><p>Sheer Heart Attack</p></a><iframe width="560" height="315" src="https://www.youtube.com/embed/rkHF_JMnB8o" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     </div>
     <footer class="footer">
         <div class="footer1">
-        <div class="footer_1d">
-            <div class="footer_1d__1">
-        <a href="https://twitter.com/queenwillrock" target="_blank" title="https://twitter.com/queenwillrock"><img src="img/twitter.png"></a>
-        <a href="https://www.youtube.com/Queen" target="_blank" title="https://www.youtube.com/Queen"><img src="img/youtube.png"></a>
-        <a href="https://www.instagram.com/officialqueenmusic" target="_blank" title="https://www.instagram.com/officialqueenmusic"><img src="img/instagram.png"></a>
-        <a href="https://www.facebook.com/Queen" target="_blank" title="https://www.facebook.com/Queen"><img src="img/facebook.png"></a>
-        </div>
-            <div class="footer_2d__2">
-            <img src="img/Queen_Logo.png">
-            <div><p>Copyright 2019, All Rights Reserved—Privacy Policy</p></div>
+            <div class="footer_1d">
+                <div class="footer_1d__1">
+                    <a href="https://twitter.com/queenwillrock" title="https://twitter.com/queenwillrock"><img src="img/twitter.png" alt="twitter"></a>
+                    <a href="https://www.youtube.com/Queen" title="https://www.youtube.com/Queen"><img src="img/youtube.png" alt="youtube"></a>
+                    <a href="https://www.instagram.com/officialqueenmusic" title="https://www.instagram.com/officialqueenmusic"><img src="img/instagram.png" alt="instagram"></a>
+                    <a href="https://www.facebook.com/Queen" title="https://www.facebook.com/Queen"><img src="img/facebook.png" alt="facebook"></a>
+                </div>
+                <div class="footer_2d__2">
+                    <img src="img/Queen_Logo.png" alt="Логотип" title="Логотип">
+                    <div>
+                        <p>&copy; Copyright 2019, All Rights Reserved&mdash;Privacy Policy</p>
+                    </div>
+                </div>
+                <div class="footer_3d__3">
+                    <p><a href="index.html">Главная</a></p>
+                    <p><a href="1.html">О Фреди Меркьюри</a></p>
+                    <p><a href="3.html">История</a></p>
+                    <p><a href="2.html">Альбомы</a></p>
+                </div>
             </div>
-            <div class="footer_3d__3">
-            <p><a href="#" target="_blank">Группа</a></p>
-            <p><a href="#" target="_blank">История</a></p>
-            <p><a href="#" target="_blank">Альбомы</a></p>
-            <p><a href="#" target="_blank">Новости</a></p>
-      </div>
-        </div>
         </div>
     </footer>
-    </body>
+</body>
 
 </html>
