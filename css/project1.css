@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
 header,
 main,
 footer {
@@ -64,7 +64,7 @@ footer {
      color: rgb(28,28,28);
    } 
    .downheader__grup_people {
-       margin-left: 30%;
+       margin-left: 25%;
        width: 200px;
        
    }
@@ -72,12 +72,12 @@ footer {
       margin-left: 10%;
    }
    .downheader__news {
-      margin-left: 8%;
+      margin-left: 17%;
        
    }
    .downheader__alboms {
        
-       margin-left: 8%;
+       margin-left: 3%;
        width: 90px;
    }
 /*.header>ul ul {*/
@@ -1402,7 +1402,7 @@ font-weight: 300;
 .footer_1d {
     display:grid;
     grid-template-columns:330px 330px 330px;
-    grid-template-rows:170px;
+    grid-template-rows:1fr;
     grid-gap: 10px;
     list-style-type: none;
 }
@@ -1410,7 +1410,7 @@ font-weight: 300;
 .footer_1d__1,
 .footer_2d__2,
 .footer_3d__3 {
-     height: 170px;
+     height: 1;
     
 }
 
@@ -1447,8 +1447,17 @@ font-weight: 300;
 .footer_3d__3  {
     margin-top: 20px;
     padding:5px;
-    font-size: 20px;
-    margin-left: 130px;
+    
+   
+    
+    
+}
+.footer_3d__3 p {
+    font-size:18px;
+     margin-left: -0px;
+     font-family: 'Montserrat Alternates', sans-serif;
+    
+     
     
     
 }

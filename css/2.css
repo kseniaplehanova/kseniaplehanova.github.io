@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
 header,
 main,
 footer {
@@ -63,8 +63,8 @@ footer {
      font-family: 'Roboto', sans-serif;
      color: rgb(28,28,28);
    } 
-   .downheader__grup_people {
-       margin-left: 30%;
+  .downheader__grup_people {
+       margin-left: 25%;
        width: 200px;
        
    }
@@ -72,12 +72,12 @@ footer {
       margin-left: 10%;
    }
    .downheader__news {
-      margin-left: 8%;
+      margin-left: 17%;
        
    }
    .downheader__alboms {
        
-       margin-left: 8%;
+       margin-left: 3%;
        width: 90px;
    }
 
@@ -352,7 +352,7 @@ form {
    /*footer*/
 .footer {
     
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     width: 100%;
     height: 170px;
     background-color: gray;
@@ -403,10 +403,11 @@ form {
     
 }
 .footer_3d__3  {
-    margin-top: -10px;
+    margin-top: 0px;
     padding:5px;
     font-size: 20px;
     margin-left: 130px;
+    line-height:40%;
     
     
 }
@@ -806,11 +807,20 @@ form {
     
 }
 .footer_3d__3  {
-    margin-top: -10px;
+    margin-top: 0px;
     padding:5px;
-    font-size: 20px;
-    margin-left: 130px;
-    line-height: 0.9;
+    
+   
+    
+    
+}
+.footer_3d__3 p {
+    font-size:18px;
+     margin-left: 50px;
+     font-family: 'Montserrat Alternates', sans-serif;
+     line-height: 5px;
+    
+     
     
     
 }
@@ -1228,8 +1238,9 @@ form {
     margin-top: -10px;
     padding:5px;
     font-size: 20px;
-    margin-left: 130px;
-    line-height:90%;
+    margin-left: 20px;
+    line-height: 0.3; 
+   
     
 }
 }

@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
 header,
 main,
 footer {
@@ -64,7 +64,7 @@ footer {
      color: rgb(28,28,28);
    } 
    .downheader__grup_people {
-       margin-left: 30%;
+       margin-left: 25%;
        width: 200px;
        
    }
@@ -72,15 +72,14 @@ footer {
       margin-left: 10%;
    }
    .downheader__news {
-      margin-left: 8%;
+      margin-left: 17%;
        
    }
    .downheader__alboms {
        
-       margin-left: 8%;
+       margin-left: 3%;
        width: 90px;
    }
-
 
 * {box-sizing: border-box;}
 form {
@@ -197,15 +196,22 @@ form {
 	margin: 0;
 	font-family: 'Montserrat Alternates', sans-serif;
 	box-sizing: border-box;
+	
 		
 }
 .post-wrap {
-	max-width: 100%;
-	height: 400px;
-	margin: 0 auto;
-	display: flex;
+    
+	/*max-width: 100%;*/
+	/*height: 400px;*/
+	/*margin: 0 auto;*/
+	/*display: flex;*/
 	/*justify-content: center;*/
-	flex-wrap: wrap;
+	/*flex-wrap: wrap;*/
+	 height: 350px;
+        margin: 100px auto 0;
+        position: relative;
+        width: 100%;
+        top: -100px;
 	
 }
 .post-item {
@@ -215,12 +221,10 @@ form {
 	position: relative;
 }
 .post-item img {
-	display: block;
-	width: 200%;
-	overflow: hidden;
-	
-
+    width: 100%;
 }
+
+
 .post-item:hover .post-info {
 	opacity: 1;
 }
@@ -233,7 +237,7 @@ form {
 	opacity: 0;
 	position: absolute;
 	top: 0;
-	width: 200%;
+	width: 100%;
 	transition: .5s linear;
 }
 .post-meta {
@@ -529,6 +533,7 @@ p {
     padding:5px;
     font-size: 20px;
     margin-left: 130px;
+    line-height:40%;
     
     
 }
@@ -887,10 +892,11 @@ p {
 
 .post-wrep {
 	max-width: 100%;
-	margin: 0 auto;
+	margin: 0px auto;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	margin-top: -400px;
 }
 .post-itom {
 	padding: 10px;	
@@ -905,7 +911,7 @@ p {
 }
 .post-itom img {
 	display: block;
-	width: 100%;
+	width: 520px;
 	height: 500px;
 }
 .text-wrapper {
@@ -962,23 +968,34 @@ p {
 		flex-basis: 33.333333333%;			
 	}
 }
-.text2 {
+.text2  {
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    /*text-align: justify;*/
+    /*font-size: 20px;*/
+    
+    
+}
+.text1 {
+    height: 100%;
     margin-right: 10px;
     margin-left: 10px;
     padding: 20px;
     text-align: justify;
     font-size: 22px;
-}
-    
+}   
 
    /*footer*/
 .footer {
-    margin-top: 4000px;
+    margin-top: 3400px;
     width: 100%;
     height: 100%;
     background-color: gray;
 }
 .footer_1d {
+    
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-template-rows:1fr;
@@ -1027,8 +1044,17 @@ p {
 .footer_3d__3  {
     margin-top: 20px;
     padding:5px;
-    font-size: 20px;
-    margin-left: 130px;
+    
+   
+    
+    
+}
+.footer_3d__3 p {
+    font-size:18px;
+     margin-left: 50px;
+     font-family: 'Montserrat Alternates', sans-serif;
+    
+     
     
     
 }
@@ -1414,10 +1440,11 @@ p {
 
 .post-wrep {
 	max-width: 1250px;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	margin-top: -300px;
 }
 .post-itom {
 	padding: 10px;	
@@ -1432,8 +1459,8 @@ p {
 }
 .post-itom img {
 	display: block;
-	width: 100%;
-	height: 410px;
+	width: 700px;
+	height: 100%;
 }
 .text-wrapper {
 	position: absolute; 
@@ -1500,7 +1527,7 @@ p {
 
 /*footer*/
 .footer {
-    margin-top: 2700px;
+    margin-top: 4100px;
     width: 100%;
     height: 170px;
     background-color: gray;
