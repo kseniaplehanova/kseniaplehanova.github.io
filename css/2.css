@@ -233,8 +233,8 @@ form {
     }
     .sld_3 {
         position: absolute;
-        width: 100%;
-        margin-left:75%;
+        /*width: 100%;*/
+        margin-left:80%;
         margin-top: 150px;
 
     }
@@ -262,7 +262,7 @@ form {
     .articl_7 {
         width: 100%;
         height: 400px;
-        margin-left: 5%;
+        margin-left: %;
         
 
     }
@@ -630,6 +630,7 @@ form {
         width: 60vw;
         margin-top: 10px;
     }
+    
     .sld_3 {
         position: absolute;
         width: 300px;
@@ -669,7 +670,7 @@ form {
     .articl_5 img,
     .articl_6 img,
     .articl_7 img {
-        height: 200px;
+        height: 100px;
         margin-left: 20px;
         margin-top: 80px;
     }
@@ -687,7 +688,7 @@ form {
     .articl_7 p {
         margin-left: 20px;
         color: white;
-        font-size: 20px;
+        font-size: 16px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
     }
@@ -695,43 +696,43 @@ form {
     .articl_1 iframe {
         position: absolute;
         top: 30px;
-        left: 250px;
+        left: 200px;
         width: 57vw;
     }
     .articl_2 iframe {
         position: absolute;
-        top: 430px;
-        left: 250px;
+        top: 380px;
+        left: 200px;
         width: 57vw;
     }
     .articl_3 iframe {
         position: absolute;
-        top: 860px;
-        left: 250px;
+        top: 780px;
+        left: 200px;
         width: 57vw;
     }
     .articl_4 iframe {
         position: absolute;
-        top: 1240px;
-        left: 250px;
+        top: 1150px;
+        left: 200px;
         width: 57vw;
     }
     .articl_5 iframe {
         position: absolute;
-        top: 1650px;
-        left: 250px;
+        top: 1520px;
+        left: 200px;
         width: 57vw;
     }
     .articl_6 iframe {
         position: absolute;
-        top: 2050px;
-        left: 250px;
+        top: 1900px;
+        left: 200px;
         width: 57vw;
     }
     .articl_7 iframe {
         position: absolute;
-        top: 2450px;
-        left: 250px;
+        top: 2300px;
+        left: 200px;
         width: 57vw;
     }
 
@@ -1512,7 +1513,7 @@ form {
     }
     .sld_3 {
         position: absolute;
-        width: 300px;
+        /*width: 300px;*/
         margin-left:80%;
         margin-top: 150px;
 
@@ -1542,7 +1543,7 @@ form {
         width: 100%;
         height: 400px;
         
-        margin-left: 25%;
+        margin-left: 0%;
         
 
     }
@@ -1575,43 +1576,50 @@ form {
         position: absolute;
         top: 30px;
         left: 430px;
-        margin-left: 30%;
+        margin-left: 5%;
+        width: 1000px;
     }
     .articl_2 iframe {
         position: absolute;
         top: 430px;
         left: 430px;
-         margin-left: 30%;
+         margin-left: 5%;
+         width: 1000px;
     }
     .articl_3 iframe {
         position: absolute;
         top: 860px;
         left: 430px;
-         margin-left: 30%;
+         margin-left: 5%;
+         width: 1000px;
     }
     .articl_4 iframe {
         position: absolute;
         top: 1290px;
         left: 430px;
-         margin-left: 30%;
+         margin-left: 5%;
+         width: 1000px;
     }
     .articl_5 iframe {
         position: absolute;
         top: 1930px;
         left: 430px;
-         margin-left: 30%;
+         margin-left: 5%;
+         width: 1000px;
     }
     .articl_6 iframe {
         position: absolute;
         top: 2330px;
         left: 430px;
-         margin-left: 30%;
+         margin-left: 5%;
+         width: 1000px;
     }
     .articl_7 iframe {
         position: absolute;
         top: 2730px;
         left: 430px;
-         margin-left: 30%;
+         margin-left: 5%;
+         width: 1000px;
     }
 
 
