@@ -472,7 +472,7 @@ form {
   cursor: pointer;
   transition: left .23s;
   z-index: 3;
-  width: 25px;
+  
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
    
@@ -480,6 +480,7 @@ form {
 .btn-menu span {
   display: block;
   height: 5px;
+  width: 30px;
   background-color: #fff;
   margin: 5px 0 0;
   transition: all .1s linear .23s;
@@ -519,6 +520,8 @@ form {
 .hidden-menu>li:nth-of-type(3) {
     margin-top: 10px;
     margin-bottom: 10px;
+    
+    
 }
 .hidden-menu>li:nth-of-type(4) {
     margin-top: 10px;
@@ -527,9 +530,11 @@ form {
             
             
              /*new header        */
-    .header {
-        display: none;
-    }
+ 
+
+.header{
+    display:none;
+}
 
 
     * {
@@ -682,31 +687,31 @@ display: none; }
         position: absolute;
         top: 20px;
         left: 120px;
-        width: 70vw;
+        width: 68vw;
     }
     .articl_2 iframe {
         position: absolute;
         top: 360px;
         left: 120px;
-        width: 70vw;
+        width: 68vw;
     }
     .articl_3 iframe {
         position: absolute;
         top: 730px;
         left: 120px;
-        width: 70vw;
+        width: 68vw;
     }
     .articl_4 iframe {
         position: absolute;
         top: 1050px;
        left: 120px;
-        width: 70vw;
+        width: 68vw;
     }
     .articl_5 iframe {
         position: absolute;
         top: 1400px;
         left: 120px;
-        width: 70vw;
+        width: 68vw;
     }
     .articl_6 iframe {
         position: absolute;
@@ -718,7 +723,7 @@ display: none; }
         position: absolute;
         top: 2100px;
         left: 120px;
-        width: 70vw;
+        width: 68vw;
     }
 
 
