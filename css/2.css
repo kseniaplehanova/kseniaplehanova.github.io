@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px) and (max-width: 1500px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
 header,
 main,
 footer {
@@ -71,7 +71,7 @@ footer {
    } 
    .downheader__grup_people {
        float:right;
-       margin-left:;
+       
       
        
    }
@@ -262,7 +262,7 @@ form {
     .articl_7 {
         width: 100%;
         height: 400px;
-        margin-left: %;
+        
         
 
     }
@@ -363,14 +363,6 @@ form {
     blockquote cite {
         font-style: normal;
     }
-    
-    
-    
-    
-    
-    
-    
-    
    /*footer*/
 .footer {
     
@@ -622,27 +614,19 @@ form {
     }
     .sld_2 {
         position: absolute;
-        margin-left: 240px;
+        margin-left: 210px;
 
     }
     .sld_2 img {
         height:70vw;
-        width: 60vw;
-        margin-top: 10px;
+        width: 50vw;
+        margin-top: 40px;
     }
     
     .sld_3 {
-        position: absolute;
-        width: 300px;
-        margin-left: 850px;
-        margin-top: 150px;
+display: none; }
 
-    }
-    .sld_3 p {
-        font-size: 35px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
+
     /*block*/
     .articl {
         margin-top: 0px;
@@ -660,7 +644,7 @@ form {
     .articl_6,
     .articl_7 {
         width: 100%;
-        height: 380px;
+        height: 340px;
 
     }
     .articl_1 img,
@@ -670,7 +654,7 @@ form {
     .articl_5 img,
     .articl_6 img,
     .articl_7 img {
-        height: 100px;
+        height: 80px;
         margin-left: 20px;
         margin-top: 80px;
     }
@@ -688,52 +672,53 @@ form {
     .articl_7 p {
         margin-left: 20px;
         color: white;
-        font-size: 16px;
+        font-size: 14px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
+        width: 20px;
     }
 
     .articl_1 iframe {
         position: absolute;
-        top: 30px;
-        left: 200px;
-        width: 57vw;
+        top: 20px;
+        left: 120px;
+        width: 70vw;
     }
     .articl_2 iframe {
         position: absolute;
-        top: 380px;
-        left: 200px;
-        width: 57vw;
+        top: 360px;
+        left: 120px;
+        width: 70vw;
     }
     .articl_3 iframe {
         position: absolute;
-        top: 780px;
-        left: 200px;
-        width: 57vw;
+        top: 730px;
+        left: 120px;
+        width: 70vw;
     }
     .articl_4 iframe {
         position: absolute;
-        top: 1150px;
-        left: 200px;
-        width: 57vw;
+        top: 1050px;
+       left: 120px;
+        width: 70vw;
     }
     .articl_5 iframe {
         position: absolute;
-        top: 1520px;
-        left: 200px;
-        width: 57vw;
+        top: 1400px;
+        left: 120px;
+        width: 70vw;
     }
     .articl_6 iframe {
         position: absolute;
-        top: 1900px;
-        left: 200px;
-        width: 57vw;
+        top: 1750px;
+        left: 120px;
+        width: 70vw;
     }
     .articl_7 iframe {
         position: absolute;
-        top: 2300px;
-        left: 200px;
-        width: 57vw;
+        top: 2100px;
+        left: 120px;
+        width: 70vw;
     }
 
 
@@ -769,14 +754,7 @@ form {
     .blockquote {
         display: none;
     }
-    
-    
-    
-    
-    
-    
-
-   /*footer*/
+  /*footer*/
 .footer {
     margin-top: 0px;
     width: 100%;
@@ -785,71 +763,58 @@ form {
 }
 .footer_1d {
     display:grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows:1fr;
-    grid-gap: 10px;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr 1fr;
+    grid-gap: 5px;
     list-style-type: none;
 }
 
 .footer_1d__1,
-.footer_2d__2,
-.footer_3d__3 {
-     height: 170px;
+.footer_2d__2 {
+     width: 180px;
+     margin-left: auto;
+     margin-right: auto;
     
+}
+.footer_3d__3 {
+    display: none;
 }
 
 
 .footer_1d__1 {
-    grid-column:1/2;
+    grid-column:1/1;
     
 }
 .footer_2d__2 {
-    grid-column: 2/3;
+    grid-column: 1/2;
 
 }
 
-.footer_3d__3 {
-    grid-column: 3/4;
-}
+
 .footer_1d__1 img {
     height: 25px;
+    
     margin-top:20px;
-    margin-left: 20px;
+    margin-left: 2%;
+    margin-right: 7%;
 }
 .footer_2d__2>img {
-     height: 50px;
-    margin-top: 20px;
-    margin-left: 70px;
+     height: 30px;
+    margin-top: 0px;
+    margin-left: 30px;
    
 }
 .footer_2d__2 p {
     text-align: center;
     margin-top: 5px;
-    margin-left: 50px;
+    margin-left: 0px;
+    font-size: 10px;
     
     
 }
-.footer_3d__3  {
-    margin-top: 0px;
-    padding:5px;
-    
-   
-    
     
 }
-.footer_3d__3 p {
-    font-size:18px;
-     margin-left: 50px;
-     font-family: 'Montserrat Alternates', sans-serif;
-     line-height: 5px;
-    
-     
-    
-    
-}
-
-}
-@media screen and (min-width: 640px) and (max-width: 1000px) {
+@media screen and (min-width: 640px) and (max-width: 1024px) {
 header,
 main,
 footer {
@@ -922,11 +887,6 @@ footer {
    .downheader__grup_people {
        width:15%;
        float:right;
-       margin-right: %;
-       
-       
-      
-       
    }
    .downheader__history {
        float:left;
@@ -1279,7 +1239,7 @@ form {
     
 }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1200px) {
 header,
 main,
 footer {
@@ -1651,14 +1611,7 @@ form {
     blockquote cite {
         font-style: normal;
     }
-    
-    
-    
-    
-    
-    
-    
-    
+
    /*footer*/
 .footer {
     
