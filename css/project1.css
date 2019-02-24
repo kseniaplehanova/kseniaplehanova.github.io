@@ -1743,7 +1743,7 @@ background-position:50% 0%;}
 
 li:nth-of-type(1)>img {
      /*height: 280px;*/
-     width: 49vw;
+     width: 50vw;
 }
 
 .block>.block__photo>.photo6,
@@ -1759,7 +1759,7 @@ li:nth-of-type(1)>img {
 
 li:nth-of-type(2)>img,
 li:nth-of-type(4)>img {
-     height: 125px;
+     height: 110px;
      width: 44vw;
      
 }
@@ -1825,8 +1825,8 @@ li:nth-of-type(4)>img {
     background: rgba(0,0,0,0.5);
     cursor: pointer;
     /*transform: scale(1.1);*/
-    height: 255px;
-     width: 48vw;
+    height: 230px;
+     width: 50vw;
 }
 
 .block__photo>li:nth-of-type(1):hover p{
@@ -1874,7 +1874,7 @@ li:nth-of-type(4)>img {
     background: rgba(0,0,0,0.5);
     cursor: pointer;
     /*transform: scale(1.1);*/
-   height: 125px;
+   height: 110px;
      width: 45vw;
 }
 
