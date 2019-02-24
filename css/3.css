@@ -919,7 +919,7 @@ p {
 	display: block;
 	width: 98%;
 	height: 400px;
-		cursor: default;
+		
 }
 .text-wrapper {
 	position: absolute; 
@@ -935,12 +935,12 @@ p {
     background: rgb(192,192,192);    
     transform: translate3d(-100%,0,0);    
     transition: transform .5s cubic-bezier(.33,.02,0,.93);
-    	cursor: default;
+    
 }
 .post-itom:hover .text-wrapper {
 	transform: translate3d(0,0,0);
 	transition: transform .5s cubic-bezier(.33,.02,0,.93) .3s;
-		cursor: default;
+		
 }
 .overlay {
 	position: absolute;
@@ -952,12 +952,12 @@ p {
     background: rgb(65,86,100);    
     transform: translate3d(-100%,0,0);
     transition: transform .4s cubic-bezier(.33,.02,0,.93) .2s;
-    	cursor: default;
+    	
 }
 .post-itom:hover .overlay {
 	transform: translate3d(0,0,0);    
     transition: transform .5s cubic-bezier(.33,.02,0,.93);
-    	cursor: default;
+    	
 }
 
 .post-titl {
@@ -967,7 +967,7 @@ p {
 	color: rgb(65,86,100);
 	font-style: italic;
 		font-family: 'Montserrat Alternates', sans-serif;
-			cursor: default;
+		
 
 }
 @media (min-width: 768px) {
