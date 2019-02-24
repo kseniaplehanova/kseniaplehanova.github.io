@@ -715,7 +715,7 @@ p {
 
 * {
 	margin: 0;
-	font-family: 'Montserrat Alternates', sans-serif;
+	/*font-family: 'Montserrat Alternates', sans-serif;*/
 	box-sizing: border-box;
 		
 }
@@ -779,6 +779,7 @@ p {
 	font-weight: 600;
 	margin-bottom: 15px;
 	font-size: 40px;
+	font-family: 'Montserrat Alternates', sans-serif;
 }
 
 
@@ -788,6 +789,7 @@ p {
     padding: 20px;
     text-align: justify;
     font-size: 22px;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 /*flipfloy*/
@@ -957,6 +959,7 @@ p {
 	font-weight: 400;
 	color: rgb(65,86,100);
 	font-style: italic;
+		font-family: 'Montserrat Alternates', sans-serif;
 
 }
 @media (min-width: 768px) {
@@ -977,6 +980,7 @@ p {
     padding: 20px;
     /*text-align: justify;*/
     /*font-size: 20px;*/
+    font-family: 'Montserrat Alternates', sans-serif;
     
     
 }
@@ -988,6 +992,7 @@ p {
     padding: 20px;
     text-align: justify;
     font-size: 22px;
+    font-family: 'Montserrat Alternates', sans-serif;
 }   
 
    /*footer*/
